@@ -108,6 +108,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--color-white);
 }
 
@@ -144,7 +145,7 @@ body {
 
 /* ----------- gallery ------------- */
 
-.gallery-nav-all {
+.gallery-nav-item:is(:hover,:focus) {
     background-color: var(--color-pressed-state);
     color: var(--color-white);
 }
@@ -152,4 +153,8 @@ body {
 .gallery-nav-item {
     background-color: var(--color-light);
     color: var(--color-primary-brand);
+}
+
+.gallery-list-text {
+    color: var(--color-text);
 }
