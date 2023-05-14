@@ -1,9 +1,5 @@
 
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 :root {
     --color-primary-brand: #4D5AE5;
     --color-pressed-state: #404BBF;
@@ -13,8 +9,14 @@ body {
     --color-light: #F4F4FD;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-white);
+    color: var(--color-text);
+}
+
 .site-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -23,8 +25,12 @@ body {
     color: var(--color-primary-brand);
 }
 
-.site-logo-studio {
+.header-logo {
     color: var(--color-dark);
+}
+
+.footer-logo {
+    color: var(--color-light);
 }
 
 .list {
@@ -42,16 +48,19 @@ body {
 }
 
 .btn-text {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .title-2 {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--color-dark);
 }
@@ -67,7 +76,6 @@ body {
 .medium-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-text);
 }
 
 /* ----------- header ------------- */
@@ -82,8 +90,11 @@ body {
     color: var(--color-dark);
 }
 
-.header-address-item {
+.header-address {
     font-style: normal;
+}
+
+.header-address-item {
     color: var(--color-text);
 }
 
@@ -114,7 +125,13 @@ body {
 /* ----------- do ------------- */
 
 /* ----------- team ------------- */
+.team {
+    background-color: var(--color-light);
+}
 
+.team-list-item {
+    background-color: var(--color-white);
+}
 /* ----------- footer ------------- */
 
 .footer {
