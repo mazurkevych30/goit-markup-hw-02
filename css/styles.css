@@ -1,0 +1,138 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color-primary-brand: #4D5AE5;
+    --color-pressed-state: #404BBF;
+    --color-dark: #2E2F42;
+    --color-text: #434455 ;
+    --color-white: #ffffff;
+    --color-light: #F4F4FD;
+}
+
+.site-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-primary-brand);
+}
+
+.site-logo-studio {
+    color: var(--color-dark);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.btn-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.title-2 {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-dark);
+}
+
+.title-3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;     
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+
+.medium-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+}
+
+/* ----------- header ------------- */
+
+.header-nav-item:is(:hover,:focus),
+.header-address-item:is(:hover,:focus){
+    color: var(--color-pressed-state);
+}
+
+.header-nav-item {
+    font-weight: 500;
+    color: var(--color-dark);
+}
+
+.header-address-item {
+    font-style: normal;
+    color: var(--color-text);
+}
+
+/* ----------- order ------------- */
+
+.order {
+    background-color: var(--color-dark);
+}
+
+.order-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+}
+
+.order-btn:is(:hover,:focus) {
+    background-color: var(--color-pressed-state);
+}
+
+.order-btn {
+    background-color: var(--color-primary-brand);
+    color: var(--color-white);
+}
+
+/* ----------- content ------------- */
+
+/* ----------- do ------------- */
+
+/* ----------- team ------------- */
+
+/* ----------- footer ------------- */
+
+.footer {
+    background-color: var(--color-dark);
+}
+
+.footer-text {
+    color: var(--color-light);
+}
+
+/* ----------- gallery ------------- */
+
+.gallery-nav-all {
+    background-color: var(--color-pressed-state);
+    color: var(--color-white);
+}
+
+.gallery-nav-item {
+    background-color: var(--color-light);
+    color: var(--color-primary-brand);
+}
